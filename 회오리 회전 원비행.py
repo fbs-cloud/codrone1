@@ -5,7 +5,7 @@ from e_drone.protocol import *
 
 if __name__ == '__main__':
     drone = Drone()
-    drone.open("com5")
+    drone.open("com4")
 
     print("이륙")
     drone.sendTakeOff()
